@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-ci-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm run preprocess",
+    "preprocess":"node custom.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "holderjs": "^2.9.4",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.3",
+    "popper.js": "^1.14.4"
+  }
+}

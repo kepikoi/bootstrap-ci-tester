@@ -1,0 +1,17 @@
+$yellow: #D4D900;
+$white: #FCFAFC;
+$green: #0E9739;
+$blue: #236EB4;
+$cyan: #008FD7;
+$black: #495057;
+$gray-900: #343C4D;
+$red: #C9055B;
+$bordeaux: #A00866;
+$violet: #690F81;
+
+$primary: $red;
+$secondary: $gray-900;
+$success: $violet;
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
